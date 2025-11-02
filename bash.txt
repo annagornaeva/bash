@@ -1,0 +1,28 @@
+1. pwd
+/c/Users/Lenovo
+
+2. $ mkdir ~/test1
+
+3. $ cd ~/test1
+
+Lenovo@Gornaeva-home MINGW64 ~/test1
+
+4 и 5. 
+echo "line
+line
+line" > file.txt
+
+6. $ cat file.txt
+line
+line
+line
+
+7. $ grep -n "line" file.txt
+1:line
+2:line
+3:line
+
+8. 
+curl -s -X 'GET' \
+  'https://petstore.swagger.io/v2/pet/findByStatus?status=available' \
+  -H 'accept: application/json'
